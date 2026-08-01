@@ -9,6 +9,14 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![OpenAI SDK](https://img.shields.io/badge/OpenAI_SDK-412991?style=flat&logo=openai&logoColor=white)
 ![Gmail API](https://img.shields.io/badge/Gmail_API-EA4335?style=flat&logo=gmail&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+**[Live demo](https://lead-router-agent.vercel.app)**
+
+<img src="docs/screenshots/leads.png" alt="Lead Router Agent leads page" width="260">
+<img src="docs/screenshots/team.png" alt="Lead Router Agent team directory page" width="260">
+<img src="docs/screenshots/company.png" alt="Lead Router Agent company profile page" width="260">
 
 Lead Router Agent reads incoming sales inquiries, decides whether they're actually relevant to your business, figures out which team member should handle each one, and drafts an internal notification email — so leads stop landing in a shared inbox where nobody's sure who owns them.
 
