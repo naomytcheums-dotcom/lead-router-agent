@@ -1,0 +1,84 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fbfaf8;
+  border-right: 1px solid #e8e2da;
+  padding: 32px 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidebar-brand {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #262220;
+  margin-bottom: 36px;
+  letter-spacing: -0.01em;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #746a5f;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 9px 12px;
+  border-radius: 6px;
+  border-left: 2px solid transparent;
+}
+
+.sidebar-nav a:hover {
+  background: #f2ede4;
+}
+
+.sidebar-nav a.active {
+  color: #7a0e2e;
+  border-left: 2px solid #7a0e2e;
+  background: #f7ecef;
+}
+
+.app-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.app-main-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 40px 80px;
+}
+
+@media (max-width: 720px) {
+  .app-shell {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: 20px 24px;
+    border-right: none;
+    border-bottom: 1px solid #e8e2da;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+  }
+
+  .app-main-inner {
+    padding: 32px 24px 56px;
+  }
+}
